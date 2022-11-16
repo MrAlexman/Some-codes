@@ -3,6 +3,7 @@ def new_decorator(main_func):
         print("I`ve printed!")
         main_func()
         print("I`ve also printed!")
+
     return inside_func
 
 
